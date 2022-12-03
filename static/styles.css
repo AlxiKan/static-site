@@ -1,0 +1,71 @@
+:root {
+	--bg0: #2b3339;
+	--bg1: #323c41;
+	--bg2: #3a454a;
+
+	--fg0: #d3c6aa;
+	--green: #a7c080;
+	--blue: #7fbbb3;
+}
+
+#content,
+content {
+	margin-right: 10%;
+	margin-left: 10%;
+	padding: 15px;
+	background-color: var(--bg1);
+}
+
+#nav {
+	text-align: center;
+}
+
+#body-content {
+	background-color: var(--bg2);
+	padding: 15px;
+}
+
+#image-container {
+	text-align: center;
+	background-color: var(--bg2);
+	padding: 15px;
+}
+
+a {
+	background-color: var(--bg0);
+	padding: 10px !important;
+	color: var(--fg0);
+	border: 1px var(--bg2);
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: var(--bg0);
+	padding: 10px !important;
+	color: var(--green);
+	border: 1px var(--bg2);
+	border-radius: 5px;
+	text-decoration: underline;
+}
+
+h1.title, footer {
+	text-align: center;
+	margin-right: 10%;
+	margin-left: 10%;
+	padding: 15px;
+	margin-bottom: 0px;
+	background-color: var(--bg1);
+}
+
+body {
+	color: var(--fg0);
+	background-color: var(--bg0);
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
